@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "MIT", :file => "LICENSE" }
   spec.author = { "shiwei93" => "stayfocusjs@gmail.com" }
   spec.platform = :ios, "10.0"
+  spec.swift_versions = '5.3'
 
   spec.source = { :git => "https://github.com/shiwei93/SwiftyPlayer.git", :tag => "#{spec.version}" }
 
