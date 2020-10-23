@@ -1,5 +1,5 @@
 included:
-  - Source
+  - Sources
 
 disabled_rules: # rule identifiers to exclude from running
   - nesting # 禁用嵌套限制
