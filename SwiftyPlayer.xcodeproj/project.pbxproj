@@ -43,7 +43,6 @@
 		C4E9384D25427585002C982D /* QualityAdjustmentEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382025427584002C982D /* QualityAdjustmentEventProducer.swift */; };
 		C4E9384E25427585002C982D /* RetryEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382125427584002C982D /* RetryEventProducer.swift */; };
 		C4E9384F25427585002C982D /* PlayableItemEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382225427584002C982D /* PlayableItemEventProducer.swift */; };
-		C4E9385025427585002C982D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4E9382325427584002C982D /* Info.plist */; };
 		C4E9385125427585002C982D /* PlayerAudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382525427584002C982D /* PlayerAudioSession.swift */; };
 		C4E9385225427585002C982D /* Player+CurrentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382725427584002C982D /* Player+CurrentItem.swift */; };
 		C4E9385325427585002C982D /* VideoPlayer+ApplicationStatusEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382825427584002C982D /* VideoPlayer+ApplicationStatusEvent.swift */; };
@@ -444,7 +443,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E9385025427585002C982D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +681,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -759,7 +757,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

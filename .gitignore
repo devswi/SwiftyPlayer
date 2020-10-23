@@ -67,3 +67,5 @@ DerivedData/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,xcode
 n
+
+.swiftpm
