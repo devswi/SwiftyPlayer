@@ -65,7 +65,6 @@
 		C4E9376525415D98002C982D /* QualityAdjustmentEventProducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9375B25415D98002C982D /* QualityAdjustmentEventProducerTests.swift */; };
 		C4E9376625415D98002C982D /* SubtitleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9375C25415D98002C982D /* SubtitleTests.swift */; };
 		C4E9376725415D98002C982D /* Fakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9375D25415D98002C982D /* Fakes.swift */; };
-		C4E9380725426E79002C982D /* SwiftyPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E9366E254157E3002C982D /* SwiftyPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,7 +156,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E9380725426E79002C982D /* SwiftyPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +366,6 @@
 				C4E93676254157F8002C982D /* Sources */,
 				C4E93677254157F8002C982D /* Frameworks */,
 				C4E93678254157F8002C982D /* Resources */,
-				C4E9380B25427158002C982D /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -485,25 +482,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "swiftlint --strict\n";
-		};
-		C4E9380B25427158002C982D /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyPlayer.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
