@@ -17,6 +17,6 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/shiwei93/SwiftyPlayer.git", :tag => "#{spec.version}" }
 
   spec.source_files = [
-    'Source/**/*.swift',
+    'Sources/**/*.swift',
   ]
 end
