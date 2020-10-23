@@ -2,17 +2,18 @@ Pod::Spec.new do |spec|
 
   spec.name = "SwiftyPlayer"
   spec.version = "0.0.4"
-  spec.summary = "A Swift libray for stream video and audio player."
+  spec.summary = "An audio and video playback component written in Swift"
 
   spec.description = <<-DESC
-  A video and audio Player written by Swift 5, on top of AVPlayer.
+  SwiftyPlayer is an audio and video playback component written in Swift, based on AVPlayer.
+  SwiftyPlayer only focuses on playback events, and does not provide screen rotation, gesture control, and other functions that are not related to playback events.
                    DESC
 
   spec.homepage = "https://github.com/shiwei93/SwiftyPlayer"
   spec.license = { :type => "MIT", :file => "LICENSE" }
   spec.author = { "shiwei93" => "stayfocusjs@gmail.com" }
   spec.platform = :ios, "10.0"
-  spec.swift_versions = '5.3'
+  spec.swift_versions = '5.1'
 
   spec.source = { :git => "https://github.com/shiwei93/SwiftyPlayer.git", :tag => "#{spec.version}" }
 
