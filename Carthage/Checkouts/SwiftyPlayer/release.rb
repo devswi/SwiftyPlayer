@@ -12,16 +12,16 @@ def run_cmd(cmd)
 end
 
 def options_setting
-  options = {all: true}
+  options = {all: false}
 
   OptionParser.new do |opts|
     opts.banner = "Usage: release.rb [version]"
     opts.separator "发布新版 SwiftyPlayer"
-    opts.separator "Options:"
+    # opts.separator "Options:"
     # options (switch - true/false)
-    opts.on("-a", "--all", "是否发布 cocoapods carthage 和 SPM") do |a|
-      options[:all] = a
-    end
+    # opts.on("-a", "--all", "是否发布通知所有业务") do |a|
+    #   options[:all] = a
+    # end
   end.parse!
 
   return options[:all]
@@ -49,7 +49,6 @@ end
 
 def main
   version = get_version
-  auto_release = options_setting
 
   release_branch = "release/v#{version}"
 
@@ -70,13 +69,6 @@ def main
   run_cmd "git merge --no-ff #{release_branch} -m 'Merge branch '#{release_branch}' into develop'"
   run_cmd "git push"
   run_cmd "git branch -D #{release_branch}"
-
-  if auto_release
-    puts "\n\n"
-    puts "---------- Cocoapods ----------"
-    run_cmd "pod spec lint #{$podspec_name}"
-    run_cmd "pod trunk push #{$podspec_name}"
-  end
 
   puts "\n\n"
   puts '👏👏👏👏👏👏 -Done- 👏👏👏👏👏👏'
