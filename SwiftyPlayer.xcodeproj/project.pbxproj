@@ -368,7 +368,6 @@
 				C4E93676254157F8002C982D /* Sources */,
 				C4E93677254157F8002C982D /* Frameworks */,
 				C4E93678254157F8002C982D /* Resources */,
-				C4E9380B25427158002C982D /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -485,25 +484,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "swiftlint --strict\n";
-		};
-		C4E9380B25427158002C982D /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyPlayer.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
