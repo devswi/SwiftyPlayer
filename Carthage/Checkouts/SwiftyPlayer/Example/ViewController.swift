@@ -5,7 +5,6 @@
 //  Created by shiwei on 2020/10/22.
 //
 
-import SwiftyPlayer
 import UIKit
 
 class ViewController: UIViewController {

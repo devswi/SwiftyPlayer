@@ -13,6 +13,48 @@
 		C4E93684254157F9002C982D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E93682254157F9002C982D /* Main.storyboard */; };
 		C4E93686254157F9002C982D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E93685254157F9002C982D /* Assets.xcassets */; };
 		C4E93689254157F9002C982D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E93687254157F9002C982D /* LaunchScreen.storyboard */; };
+		C4E936A22541581D002C982D /* ResourceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9350825415348002C982D /* ResourceConvertible.swift */; };
+		C4E936A32541581D002C982D /* PlayableItemQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9350A25415348002C982D /* PlayableItemQueue.swift */; };
+		C4E936A42541581D002C982D /* Player+PlayerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351C25415348002C982D /* Player+PlayerEvent.swift */; };
+		C4E936A52541581D002C982D /* Playable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9350B25415348002C982D /* Playable.swift */; };
+		C4E936A62541581D002C982D /* Player+CurrentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351725415348002C982D /* Player+CurrentItem.swift */; };
+		C4E936A72541581D002C982D /* SeekEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9353025415349002C982D /* SeekEventProducer.swift */; };
+		C4E936A82541581D002C982D /* EventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352F25415349002C982D /* EventProducer.swift */; };
+		C4E936A92541581D002C982D /* PlayerEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9353125415349002C982D /* PlayerEventProducer.swift */; };
+		C4E936AA2541581D002C982D /* RetryEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9353425415349002C982D /* RetryEventProducer.swift */; };
+		C4E936AB2541581D002C982D /* Player+NetworkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351A25415348002C982D /* Player+NetworkEvent.swift */; };
+		C4E936AC2541581D002C982D /* Player+PlayableItemEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351B25415348002C982D /* Player+PlayableItemEvent.swift */; };
+		C4E936AD2541581D002C982D /* Player+RetryEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352025415348002C982D /* Player+RetryEvent.swift */; };
+		C4E936AE2541581D002C982D /* CachingPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352A25415348002C982D /* CachingPlayerItem.swift */; };
+		C4E936AF2541581D002C982D /* Player+SeekEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351925415348002C982D /* Player+SeekEvent.swift */; };
+		C4E936B02541581D002C982D /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352625415348002C982D /* PlayerDelegate.swift */; };
+		C4E936B12541581D002C982D /* ApplicationStatusProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9353225415349002C982D /* ApplicationStatusProducer.swift */; };
+		C4E936B22541581D002C982D /* VideoPlayerGravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352C25415348002C982D /* VideoPlayerGravity.swift */; };
+		C4E936B32541581D002C982D /* URL+Scheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351225415348002C982D /* URL+Scheme.swift */; };
+		C4E936B42541581D002C982D /* PlayableItemEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9353525415349002C982D /* PlayableItemEventProducer.swift */; };
+		C4E936B52541581D002C982D /* QualityAdjustmentEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9353325415349002C982D /* QualityAdjustmentEventProducer.swift */; };
+		C4E936B62541581D002C982D /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352225415348002C982D /* VideoPlayerView.swift */; };
+		C4E936B72541581D002C982D /* CachingPlayerItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352725415348002C982D /* CachingPlayerItemDelegate.swift */; };
+		C4E936B82541581D002C982D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352925415348002C982D /* Player.swift */; };
+		C4E936B92541581D002C982D /* VideoPlayer+ApplicationStatusEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351825415348002C982D /* VideoPlayer+ApplicationStatusEvent.swift */; };
+		C4E936BA2541581D002C982D /* NetworkEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352E25415349002C982D /* NetworkEventProducer.swift */; };
+		C4E936BB2541581D002C982D /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352425415348002C982D /* VideoPlayer.swift */; };
+		C4E936BC2541581D002C982D /* ResourceLoaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352325415348002C982D /* ResourceLoaderDelegate.swift */; };
+		C4E936BD2541581D002C982D /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352825415348002C982D /* PlayerState.swift */; };
+		C4E936BE2541581D002C982D /* PlayerBufferingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352B25415348002C982D /* PlayerBufferingStrategy.swift */; };
+		C4E936BF2541581D002C982D /* URL+Offline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9350F25415348002C982D /* URL+Offline.swift */; };
+		C4E936C02541581D002C982D /* CMTime+TimeIntervalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351025415348002C982D /* CMTime+TimeIntervalValue.swift */; };
+		C4E936C12541581D002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351125415348002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift */; };
+		C4E936C22541581D002C982D /* PlayerAudioTimePitchAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352525415348002C982D /* PlayerAudioTimePitchAlgorithm.swift */; };
+		C4E936C32541581D002C982D /* PlayableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9350C25415348002C982D /* PlayableItem.swift */; };
+		C4E936C42541581D002C982D /* Player+Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351D25415348002C982D /* Player+Control.swift */; };
+		C4E936C52541581D002C982D /* Player+QualityAdjustmentEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9352125415348002C982D /* Player+QualityAdjustmentEvent.swift */; };
+		C4E936C62541581D002C982D /* PlayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9350925415348002C982D /* PlayMode.swift */; };
+		C4E936C72541581D002C982D /* Player+Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351E25415348002C982D /* Player+Queue.swift */; };
+		C4E936C82541581D002C982D /* Player+RemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351F25415348002C982D /* Player+RemoteCommand.swift */; };
+		C4E936C92541581D002C982D /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9350E25415348002C982D /* Subtitle.swift */; };
+		C4E936CA2541581D002C982D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351325415348002C982D /* Reachability.swift */; };
+		C4E936CB2541581D002C982D /* PlayerAudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9351525415348002C982D /* PlayerAudioSession.swift */; };
 		C4E9375E25415D98002C982D /* PlayerEventProducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9375325415D98002C982D /* PlayerEventProducerTests.swift */; };
 		C4E9375F25415D98002C982D /* PlayableItemQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9375425415D98002C982D /* PlayableItemQueueTests.swift */; };
 		C4E9376025415D98002C982D /* SeekEventProducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9375525415D98002C982D /* SeekEventProducerTests.swift */; };
@@ -23,50 +65,6 @@
 		C4E9376525415D98002C982D /* QualityAdjustmentEventProducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9375B25415D98002C982D /* QualityAdjustmentEventProducerTests.swift */; };
 		C4E9376625415D98002C982D /* SubtitleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9375C25415D98002C982D /* SubtitleTests.swift */; };
 		C4E9376725415D98002C982D /* Fakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9375D25415D98002C982D /* Fakes.swift */; };
-		C4E9380725426E79002C982D /* SwiftyPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E9366E254157E3002C982D /* SwiftyPlayer.framework */; };
-		C4E9383D25427585002C982D /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9380E25427584002C982D /* Subtitle.swift */; };
-		C4E9383E25427585002C982D /* URL+Offline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9380F25427584002C982D /* URL+Offline.swift */; };
-		C4E9383F25427585002C982D /* CMTime+TimeIntervalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381025427584002C982D /* CMTime+TimeIntervalValue.swift */; };
-		C4E9384025427585002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381125427584002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift */; };
-		C4E9384125427585002C982D /* URL+Scheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381225427584002C982D /* URL+Scheme.swift */; };
-		C4E9384225427585002C982D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381325427584002C982D /* Reachability.swift */; };
-		C4E9384325427585002C982D /* ResourceConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381525427584002C982D /* ResourceConvertible.swift */; };
-		C4E9384425427585002C982D /* PlayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381625427584002C982D /* PlayMode.swift */; };
-		C4E9384525427585002C982D /* PlayableItemQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381725427584002C982D /* PlayableItemQueue.swift */; };
-		C4E9384625427585002C982D /* Playable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381825427584002C982D /* Playable.swift */; };
-		C4E9384725427585002C982D /* PlayableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381925427584002C982D /* PlayableItem.swift */; };
-		C4E9384825427585002C982D /* NetworkEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381B25427584002C982D /* NetworkEventProducer.swift */; };
-		C4E9384925427585002C982D /* EventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381C25427584002C982D /* EventProducer.swift */; };
-		C4E9384A25427585002C982D /* SeekEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381D25427584002C982D /* SeekEventProducer.swift */; };
-		C4E9384B25427585002C982D /* PlayerEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381E25427584002C982D /* PlayerEventProducer.swift */; };
-		C4E9384C25427585002C982D /* ApplicationStatusProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9381F25427584002C982D /* ApplicationStatusProducer.swift */; };
-		C4E9384D25427585002C982D /* QualityAdjustmentEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382025427584002C982D /* QualityAdjustmentEventProducer.swift */; };
-		C4E9384E25427585002C982D /* RetryEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382125427584002C982D /* RetryEventProducer.swift */; };
-		C4E9384F25427585002C982D /* PlayableItemEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382225427584002C982D /* PlayableItemEventProducer.swift */; };
-		C4E9385025427585002C982D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4E9382325427584002C982D /* Info.plist */; };
-		C4E9385125427585002C982D /* PlayerAudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382525427584002C982D /* PlayerAudioSession.swift */; };
-		C4E9385225427585002C982D /* Player+CurrentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382725427584002C982D /* Player+CurrentItem.swift */; };
-		C4E9385325427585002C982D /* VideoPlayer+ApplicationStatusEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382825427584002C982D /* VideoPlayer+ApplicationStatusEvent.swift */; };
-		C4E9385425427585002C982D /* Player+SeekEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382925427584002C982D /* Player+SeekEvent.swift */; };
-		C4E9385525427585002C982D /* Player+NetworkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382A25427584002C982D /* Player+NetworkEvent.swift */; };
-		C4E9385625427585002C982D /* Player+PlayableItemEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382B25427584002C982D /* Player+PlayableItemEvent.swift */; };
-		C4E9385725427585002C982D /* Player+PlayerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382C25427584002C982D /* Player+PlayerEvent.swift */; };
-		C4E9385825427585002C982D /* Player+Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382D25427584002C982D /* Player+Control.swift */; };
-		C4E9385925427585002C982D /* Player+Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382E25427584002C982D /* Player+Queue.swift */; };
-		C4E9385A25427585002C982D /* Player+RemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9382F25427584002C982D /* Player+RemoteCommand.swift */; };
-		C4E9385B25427585002C982D /* Player+RetryEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383025427584002C982D /* Player+RetryEvent.swift */; };
-		C4E9385C25427585002C982D /* Player+QualityAdjustmentEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383125427584002C982D /* Player+QualityAdjustmentEvent.swift */; };
-		C4E9385D25427585002C982D /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383225427584002C982D /* VideoPlayerView.swift */; };
-		C4E9385E25427585002C982D /* ResourceLoaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383325427584002C982D /* ResourceLoaderDelegate.swift */; };
-		C4E9385F25427585002C982D /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383425427584002C982D /* VideoPlayer.swift */; };
-		C4E9386025427585002C982D /* PlayerAudioTimePitchAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383525427584002C982D /* PlayerAudioTimePitchAlgorithm.swift */; };
-		C4E9386125427585002C982D /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383625427584002C982D /* PlayerDelegate.swift */; };
-		C4E9386225427585002C982D /* CachingPlayerItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383725427584002C982D /* CachingPlayerItemDelegate.swift */; };
-		C4E9386325427585002C982D /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383825427584002C982D /* PlayerState.swift */; };
-		C4E9386425427585002C982D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383925427584002C982D /* Player.swift */; };
-		C4E9386525427585002C982D /* CachingPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383A25427584002C982D /* CachingPlayerItem.swift */; };
-		C4E9386625427585002C982D /* PlayerBufferingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383B25427584002C982D /* PlayerBufferingStrategy.swift */; };
-		C4E9386725427585002C982D /* VideoPlayerGravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383C25427584002C982D /* VideoPlayerGravity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +78,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4E934022541508C002C982D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E9350825415348002C982D /* ResourceConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceConvertible.swift; sourceTree = "<group>"; };
+		C4E9350925415348002C982D /* PlayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMode.swift; sourceTree = "<group>"; };
+		C4E9350A25415348002C982D /* PlayableItemQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayableItemQueue.swift; sourceTree = "<group>"; };
+		C4E9350B25415348002C982D /* Playable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playable.swift; sourceTree = "<group>"; };
+		C4E9350C25415348002C982D /* PlayableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayableItem.swift; sourceTree = "<group>"; };
+		C4E9350E25415348002C982D /* Subtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtitle.swift; sourceTree = "<group>"; };
+		C4E9350F25415348002C982D /* URL+Offline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Offline.swift"; sourceTree = "<group>"; };
+		C4E9351025415348002C982D /* CMTime+TimeIntervalValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime+TimeIntervalValue.swift"; sourceTree = "<group>"; };
+		C4E9351125415348002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MPNowPlayingInfoCenter+PlayableItem.swift"; sourceTree = "<group>"; };
+		C4E9351225415348002C982D /* URL+Scheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Scheme.swift"; sourceTree = "<group>"; };
+		C4E9351325415348002C982D /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C4E9351525415348002C982D /* PlayerAudioSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAudioSession.swift; sourceTree = "<group>"; };
+		C4E9351725415348002C982D /* Player+CurrentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+CurrentItem.swift"; sourceTree = "<group>"; };
+		C4E9351825415348002C982D /* VideoPlayer+ApplicationStatusEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VideoPlayer+ApplicationStatusEvent.swift"; sourceTree = "<group>"; };
+		C4E9351925415348002C982D /* Player+SeekEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+SeekEvent.swift"; sourceTree = "<group>"; };
+		C4E9351A25415348002C982D /* Player+NetworkEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+NetworkEvent.swift"; sourceTree = "<group>"; };
+		C4E9351B25415348002C982D /* Player+PlayableItemEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+PlayableItemEvent.swift"; sourceTree = "<group>"; };
+		C4E9351C25415348002C982D /* Player+PlayerEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+PlayerEvent.swift"; sourceTree = "<group>"; };
+		C4E9351D25415348002C982D /* Player+Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+Control.swift"; sourceTree = "<group>"; };
+		C4E9351E25415348002C982D /* Player+Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+Queue.swift"; sourceTree = "<group>"; };
+		C4E9351F25415348002C982D /* Player+RemoteCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+RemoteCommand.swift"; sourceTree = "<group>"; };
+		C4E9352025415348002C982D /* Player+RetryEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+RetryEvent.swift"; sourceTree = "<group>"; };
+		C4E9352125415348002C982D /* Player+QualityAdjustmentEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+QualityAdjustmentEvent.swift"; sourceTree = "<group>"; };
+		C4E9352225415348002C982D /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		C4E9352325415348002C982D /* ResourceLoaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceLoaderDelegate.swift; sourceTree = "<group>"; };
+		C4E9352425415348002C982D /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		C4E9352525415348002C982D /* PlayerAudioTimePitchAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAudioTimePitchAlgorithm.swift; sourceTree = "<group>"; };
+		C4E9352625415348002C982D /* PlayerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDelegate.swift; sourceTree = "<group>"; };
+		C4E9352725415348002C982D /* CachingPlayerItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingPlayerItemDelegate.swift; sourceTree = "<group>"; };
+		C4E9352825415348002C982D /* PlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
+		C4E9352925415348002C982D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C4E9352A25415348002C982D /* CachingPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingPlayerItem.swift; sourceTree = "<group>"; };
+		C4E9352B25415348002C982D /* PlayerBufferingStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBufferingStrategy.swift; sourceTree = "<group>"; };
+		C4E9352C25415348002C982D /* VideoPlayerGravity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerGravity.swift; sourceTree = "<group>"; };
+		C4E9352E25415349002C982D /* NetworkEventProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEventProducer.swift; sourceTree = "<group>"; };
+		C4E9352F25415349002C982D /* EventProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventProducer.swift; sourceTree = "<group>"; };
+		C4E9353025415349002C982D /* SeekEventProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekEventProducer.swift; sourceTree = "<group>"; };
+		C4E9353125415349002C982D /* PlayerEventProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEventProducer.swift; sourceTree = "<group>"; };
+		C4E9353225415349002C982D /* ApplicationStatusProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStatusProducer.swift; sourceTree = "<group>"; };
+		C4E9353325415349002C982D /* QualityAdjustmentEventProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityAdjustmentEventProducer.swift; sourceTree = "<group>"; };
+		C4E9353425415349002C982D /* RetryEventProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryEventProducer.swift; sourceTree = "<group>"; };
+		C4E9353525415349002C982D /* PlayableItemEventProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayableItemEventProducer.swift; sourceTree = "<group>"; };
 		C4E9366E254157E3002C982D /* SwiftyPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E9367A254157F8002C982D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E9367C254157F9002C982D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,49 +142,6 @@
 		C4E9375B25415D98002C982D /* QualityAdjustmentEventProducerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityAdjustmentEventProducerTests.swift; sourceTree = "<group>"; };
 		C4E9375C25415D98002C982D /* SubtitleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleTests.swift; sourceTree = "<group>"; };
 		C4E9375D25415D98002C982D /* Fakes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fakes.swift; sourceTree = "<group>"; };
-		C4E9380E25427584002C982D /* Subtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtitle.swift; sourceTree = "<group>"; };
-		C4E9380F25427584002C982D /* URL+Offline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Offline.swift"; sourceTree = "<group>"; };
-		C4E9381025427584002C982D /* CMTime+TimeIntervalValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMTime+TimeIntervalValue.swift"; sourceTree = "<group>"; };
-		C4E9381125427584002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MPNowPlayingInfoCenter+PlayableItem.swift"; sourceTree = "<group>"; };
-		C4E9381225427584002C982D /* URL+Scheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Scheme.swift"; sourceTree = "<group>"; };
-		C4E9381325427584002C982D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		C4E9381525427584002C982D /* ResourceConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceConvertible.swift; sourceTree = "<group>"; };
-		C4E9381625427584002C982D /* PlayMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMode.swift; sourceTree = "<group>"; };
-		C4E9381725427584002C982D /* PlayableItemQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayableItemQueue.swift; sourceTree = "<group>"; };
-		C4E9381825427584002C982D /* Playable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playable.swift; sourceTree = "<group>"; };
-		C4E9381925427584002C982D /* PlayableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayableItem.swift; sourceTree = "<group>"; };
-		C4E9381B25427584002C982D /* NetworkEventProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEventProducer.swift; sourceTree = "<group>"; };
-		C4E9381C25427584002C982D /* EventProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProducer.swift; sourceTree = "<group>"; };
-		C4E9381D25427584002C982D /* SeekEventProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeekEventProducer.swift; sourceTree = "<group>"; };
-		C4E9381E25427584002C982D /* PlayerEventProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerEventProducer.swift; sourceTree = "<group>"; };
-		C4E9381F25427584002C982D /* ApplicationStatusProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationStatusProducer.swift; sourceTree = "<group>"; };
-		C4E9382025427584002C982D /* QualityAdjustmentEventProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityAdjustmentEventProducer.swift; sourceTree = "<group>"; };
-		C4E9382125427584002C982D /* RetryEventProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryEventProducer.swift; sourceTree = "<group>"; };
-		C4E9382225427584002C982D /* PlayableItemEventProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayableItemEventProducer.swift; sourceTree = "<group>"; };
-		C4E9382325427584002C982D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4E9382525427584002C982D /* PlayerAudioSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerAudioSession.swift; sourceTree = "<group>"; };
-		C4E9382725427584002C982D /* Player+CurrentItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+CurrentItem.swift"; sourceTree = "<group>"; };
-		C4E9382825427584002C982D /* VideoPlayer+ApplicationStatusEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VideoPlayer+ApplicationStatusEvent.swift"; sourceTree = "<group>"; };
-		C4E9382925427584002C982D /* Player+SeekEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+SeekEvent.swift"; sourceTree = "<group>"; };
-		C4E9382A25427584002C982D /* Player+NetworkEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+NetworkEvent.swift"; sourceTree = "<group>"; };
-		C4E9382B25427584002C982D /* Player+PlayableItemEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+PlayableItemEvent.swift"; sourceTree = "<group>"; };
-		C4E9382C25427584002C982D /* Player+PlayerEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+PlayerEvent.swift"; sourceTree = "<group>"; };
-		C4E9382D25427584002C982D /* Player+Control.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+Control.swift"; sourceTree = "<group>"; };
-		C4E9382E25427584002C982D /* Player+Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+Queue.swift"; sourceTree = "<group>"; };
-		C4E9382F25427584002C982D /* Player+RemoteCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+RemoteCommand.swift"; sourceTree = "<group>"; };
-		C4E9383025427584002C982D /* Player+RetryEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+RetryEvent.swift"; sourceTree = "<group>"; };
-		C4E9383125427584002C982D /* Player+QualityAdjustmentEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+QualityAdjustmentEvent.swift"; sourceTree = "<group>"; };
-		C4E9383225427584002C982D /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
-		C4E9383325427584002C982D /* ResourceLoaderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceLoaderDelegate.swift; sourceTree = "<group>"; };
-		C4E9383425427584002C982D /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
-		C4E9383525427584002C982D /* PlayerAudioTimePitchAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerAudioTimePitchAlgorithm.swift; sourceTree = "<group>"; };
-		C4E9383625427584002C982D /* PlayerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDelegate.swift; sourceTree = "<group>"; };
-		C4E9383725427584002C982D /* CachingPlayerItemDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachingPlayerItemDelegate.swift; sourceTree = "<group>"; };
-		C4E9383825427584002C982D /* PlayerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
-		C4E9383925427584002C982D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		C4E9383A25427584002C982D /* CachingPlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachingPlayerItem.swift; sourceTree = "<group>"; };
-		C4E9383B25427584002C982D /* PlayerBufferingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerBufferingStrategy.swift; sourceTree = "<group>"; };
-		C4E9383C25427584002C982D /* VideoPlayerGravity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerGravity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +156,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E9380725426E79002C982D /* SwiftyPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +172,7 @@
 		C4E933CC25414C4F002C982D = {
 			isa = PBXGroup;
 			children = (
-				C4E9380C25427584002C982D /* Sources */,
+				C4E934012541508C002C982D /* Source */,
 				C4E9367B254157F9002C982D /* Example */,
 				C4E9374725415D5B002C982D /* Tests */,
 				C4E933D925415028002C982D /* Products */,
@@ -191,6 +188,96 @@
 				C4E9374625415D5B002C982D /* Tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E934012541508C002C982D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9352D25415349002C982D /* Event */,
+				C4E9350725415348002C982D /* Item */,
+				C4E9351425415348002C982D /* Player */,
+				C4E9351325415348002C982D /* Reachability.swift */,
+				C4E9350D25415348002C982D /* Utils */,
+				C4E934022541508C002C982D /* Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C4E9350725415348002C982D /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9350825415348002C982D /* ResourceConvertible.swift */,
+				C4E9350925415348002C982D /* PlayMode.swift */,
+				C4E9350A25415348002C982D /* PlayableItemQueue.swift */,
+				C4E9350B25415348002C982D /* Playable.swift */,
+				C4E9350C25415348002C982D /* PlayableItem.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		C4E9350D25415348002C982D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9350E25415348002C982D /* Subtitle.swift */,
+				C4E9350F25415348002C982D /* URL+Offline.swift */,
+				C4E9351025415348002C982D /* CMTime+TimeIntervalValue.swift */,
+				C4E9351125415348002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift */,
+				C4E9351225415348002C982D /* URL+Scheme.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C4E9351425415348002C982D /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9351525415348002C982D /* PlayerAudioSession.swift */,
+				C4E9351625415348002C982D /* Extension */,
+				C4E9352225415348002C982D /* VideoPlayerView.swift */,
+				C4E9352325415348002C982D /* ResourceLoaderDelegate.swift */,
+				C4E9352425415348002C982D /* VideoPlayer.swift */,
+				C4E9352525415348002C982D /* PlayerAudioTimePitchAlgorithm.swift */,
+				C4E9352625415348002C982D /* PlayerDelegate.swift */,
+				C4E9352725415348002C982D /* CachingPlayerItemDelegate.swift */,
+				C4E9352825415348002C982D /* PlayerState.swift */,
+				C4E9352925415348002C982D /* Player.swift */,
+				C4E9352A25415348002C982D /* CachingPlayerItem.swift */,
+				C4E9352B25415348002C982D /* PlayerBufferingStrategy.swift */,
+				C4E9352C25415348002C982D /* VideoPlayerGravity.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		C4E9351625415348002C982D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9351725415348002C982D /* Player+CurrentItem.swift */,
+				C4E9351825415348002C982D /* VideoPlayer+ApplicationStatusEvent.swift */,
+				C4E9351925415348002C982D /* Player+SeekEvent.swift */,
+				C4E9351A25415348002C982D /* Player+NetworkEvent.swift */,
+				C4E9351B25415348002C982D /* Player+PlayableItemEvent.swift */,
+				C4E9351C25415348002C982D /* Player+PlayerEvent.swift */,
+				C4E9351D25415348002C982D /* Player+Control.swift */,
+				C4E9351E25415348002C982D /* Player+Queue.swift */,
+				C4E9351F25415348002C982D /* Player+RemoteCommand.swift */,
+				C4E9352025415348002C982D /* Player+RetryEvent.swift */,
+				C4E9352125415348002C982D /* Player+QualityAdjustmentEvent.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C4E9352D25415349002C982D /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9352E25415349002C982D /* NetworkEventProducer.swift */,
+				C4E9352F25415349002C982D /* EventProducer.swift */,
+				C4E9353025415349002C982D /* SeekEventProducer.swift */,
+				C4E9353125415349002C982D /* PlayerEventProducer.swift */,
+				C4E9353225415349002C982D /* ApplicationStatusProducer.swift */,
+				C4E9353325415349002C982D /* QualityAdjustmentEventProducer.swift */,
+				C4E9353425415349002C982D /* RetryEventProducer.swift */,
+				C4E9353525415349002C982D /* PlayableItemEventProducer.swift */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 		C4E9354025415370002C982D /* Frameworks */ = {
@@ -240,96 +327,6 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		C4E9380C25427584002C982D /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				C4E9380D25427584002C982D /* Utils */,
-				C4E9381325427584002C982D /* Reachability.swift */,
-				C4E9381425427584002C982D /* Item */,
-				C4E9381A25427584002C982D /* Event */,
-				C4E9382325427584002C982D /* Info.plist */,
-				C4E9382425427584002C982D /* Player */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		C4E9380D25427584002C982D /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				C4E9380E25427584002C982D /* Subtitle.swift */,
-				C4E9380F25427584002C982D /* URL+Offline.swift */,
-				C4E9381025427584002C982D /* CMTime+TimeIntervalValue.swift */,
-				C4E9381125427584002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift */,
-				C4E9381225427584002C982D /* URL+Scheme.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		C4E9381425427584002C982D /* Item */ = {
-			isa = PBXGroup;
-			children = (
-				C4E9381525427584002C982D /* ResourceConvertible.swift */,
-				C4E9381625427584002C982D /* PlayMode.swift */,
-				C4E9381725427584002C982D /* PlayableItemQueue.swift */,
-				C4E9381825427584002C982D /* Playable.swift */,
-				C4E9381925427584002C982D /* PlayableItem.swift */,
-			);
-			path = Item;
-			sourceTree = "<group>";
-		};
-		C4E9381A25427584002C982D /* Event */ = {
-			isa = PBXGroup;
-			children = (
-				C4E9381B25427584002C982D /* NetworkEventProducer.swift */,
-				C4E9381C25427584002C982D /* EventProducer.swift */,
-				C4E9381D25427584002C982D /* SeekEventProducer.swift */,
-				C4E9381E25427584002C982D /* PlayerEventProducer.swift */,
-				C4E9381F25427584002C982D /* ApplicationStatusProducer.swift */,
-				C4E9382025427584002C982D /* QualityAdjustmentEventProducer.swift */,
-				C4E9382125427584002C982D /* RetryEventProducer.swift */,
-				C4E9382225427584002C982D /* PlayableItemEventProducer.swift */,
-			);
-			path = Event;
-			sourceTree = "<group>";
-		};
-		C4E9382425427584002C982D /* Player */ = {
-			isa = PBXGroup;
-			children = (
-				C4E9382525427584002C982D /* PlayerAudioSession.swift */,
-				C4E9382625427584002C982D /* Extension */,
-				C4E9383225427584002C982D /* VideoPlayerView.swift */,
-				C4E9383325427584002C982D /* ResourceLoaderDelegate.swift */,
-				C4E9383425427584002C982D /* VideoPlayer.swift */,
-				C4E9383525427584002C982D /* PlayerAudioTimePitchAlgorithm.swift */,
-				C4E9383625427584002C982D /* PlayerDelegate.swift */,
-				C4E9383725427584002C982D /* CachingPlayerItemDelegate.swift */,
-				C4E9383825427584002C982D /* PlayerState.swift */,
-				C4E9383925427584002C982D /* Player.swift */,
-				C4E9383A25427584002C982D /* CachingPlayerItem.swift */,
-				C4E9383B25427584002C982D /* PlayerBufferingStrategy.swift */,
-				C4E9383C25427584002C982D /* VideoPlayerGravity.swift */,
-			);
-			path = Player;
-			sourceTree = "<group>";
-		};
-		C4E9382625427584002C982D /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				C4E9382725427584002C982D /* Player+CurrentItem.swift */,
-				C4E9382825427584002C982D /* VideoPlayer+ApplicationStatusEvent.swift */,
-				C4E9382925427584002C982D /* Player+SeekEvent.swift */,
-				C4E9382A25427584002C982D /* Player+NetworkEvent.swift */,
-				C4E9382B25427584002C982D /* Player+PlayableItemEvent.swift */,
-				C4E9382C25427584002C982D /* Player+PlayerEvent.swift */,
-				C4E9382D25427584002C982D /* Player+Control.swift */,
-				C4E9382E25427584002C982D /* Player+Queue.swift */,
-				C4E9382F25427584002C982D /* Player+RemoteCommand.swift */,
-				C4E9383025427584002C982D /* Player+RetryEvent.swift */,
-				C4E9383125427584002C982D /* Player+QualityAdjustmentEvent.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -369,7 +366,6 @@
 				C4E93676254157F8002C982D /* Sources */,
 				C4E93677254157F8002C982D /* Frameworks */,
 				C4E93678254157F8002C982D /* Resources */,
-				C4E9380B25427158002C982D /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -444,7 +440,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E9385025427585002C982D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,25 +483,6 @@
 			shellPath = /bin/sh;
 			shellScript = "swiftlint --strict\n";
 		};
-		C4E9380B25427158002C982D /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyPlayer.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -514,48 +490,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E9385525427585002C982D /* Player+NetworkEvent.swift in Sources */,
-				C4E9385625427585002C982D /* Player+PlayableItemEvent.swift in Sources */,
-				C4E9384B25427585002C982D /* PlayerEventProducer.swift in Sources */,
-				C4E9384A25427585002C982D /* SeekEventProducer.swift in Sources */,
-				C4E9384325427585002C982D /* ResourceConvertible.swift in Sources */,
-				C4E9383D25427585002C982D /* Subtitle.swift in Sources */,
-				C4E9383E25427585002C982D /* URL+Offline.swift in Sources */,
-				C4E9384F25427585002C982D /* PlayableItemEventProducer.swift in Sources */,
-				C4E9386325427585002C982D /* PlayerState.swift in Sources */,
-				C4E9384725427585002C982D /* PlayableItem.swift in Sources */,
-				C4E9384C25427585002C982D /* ApplicationStatusProducer.swift in Sources */,
-				C4E9384225427585002C982D /* Reachability.swift in Sources */,
-				C4E9386125427585002C982D /* PlayerDelegate.swift in Sources */,
-				C4E9384825427585002C982D /* NetworkEventProducer.swift in Sources */,
-				C4E9385C25427585002C982D /* Player+QualityAdjustmentEvent.swift in Sources */,
-				C4E9386725427585002C982D /* VideoPlayerGravity.swift in Sources */,
-				C4E9385225427585002C982D /* Player+CurrentItem.swift in Sources */,
-				C4E9385425427585002C982D /* Player+SeekEvent.swift in Sources */,
-				C4E9385D25427585002C982D /* VideoPlayerView.swift in Sources */,
-				C4E9385725427585002C982D /* Player+PlayerEvent.swift in Sources */,
-				C4E9386225427585002C982D /* CachingPlayerItemDelegate.swift in Sources */,
-				C4E9385A25427585002C982D /* Player+RemoteCommand.swift in Sources */,
-				C4E9384425427585002C982D /* PlayMode.swift in Sources */,
-				C4E9384025427585002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift in Sources */,
-				C4E9385F25427585002C982D /* VideoPlayer.swift in Sources */,
-				C4E9384E25427585002C982D /* RetryEventProducer.swift in Sources */,
-				C4E9385925427585002C982D /* Player+Queue.swift in Sources */,
-				C4E9384D25427585002C982D /* QualityAdjustmentEventProducer.swift in Sources */,
-				C4E9384125427585002C982D /* URL+Scheme.swift in Sources */,
-				C4E9384625427585002C982D /* Playable.swift in Sources */,
-				C4E9384925427585002C982D /* EventProducer.swift in Sources */,
-				C4E9386025427585002C982D /* PlayerAudioTimePitchAlgorithm.swift in Sources */,
-				C4E9386425427585002C982D /* Player.swift in Sources */,
-				C4E9385E25427585002C982D /* ResourceLoaderDelegate.swift in Sources */,
-				C4E9385B25427585002C982D /* Player+RetryEvent.swift in Sources */,
-				C4E9385325427585002C982D /* VideoPlayer+ApplicationStatusEvent.swift in Sources */,
-				C4E9386525427585002C982D /* CachingPlayerItem.swift in Sources */,
-				C4E9384525427585002C982D /* PlayableItemQueue.swift in Sources */,
-				C4E9385125427585002C982D /* PlayerAudioSession.swift in Sources */,
-				C4E9386625427585002C982D /* PlayerBufferingStrategy.swift in Sources */,
-				C4E9383F25427585002C982D /* CMTime+TimeIntervalValue.swift in Sources */,
-				C4E9385825427585002C982D /* Player+Control.swift in Sources */,
+				C4E936AC2541581D002C982D /* Player+PlayableItemEvent.swift in Sources */,
+				C4E936A82541581D002C982D /* EventProducer.swift in Sources */,
+				C4E936A42541581D002C982D /* Player+PlayerEvent.swift in Sources */,
+				C4E936AB2541581D002C982D /* Player+NetworkEvent.swift in Sources */,
+				C4E936B82541581D002C982D /* Player.swift in Sources */,
+				C4E936B32541581D002C982D /* URL+Scheme.swift in Sources */,
+				C4E936C82541581D002C982D /* Player+RemoteCommand.swift in Sources */,
+				C4E936B52541581D002C982D /* QualityAdjustmentEventProducer.swift in Sources */,
+				C4E936BA2541581D002C982D /* NetworkEventProducer.swift in Sources */,
+				C4E936B42541581D002C982D /* PlayableItemEventProducer.swift in Sources */,
+				C4E936AA2541581D002C982D /* RetryEventProducer.swift in Sources */,
+				C4E936BD2541581D002C982D /* PlayerState.swift in Sources */,
+				C4E936C02541581D002C982D /* CMTime+TimeIntervalValue.swift in Sources */,
+				C4E936C72541581D002C982D /* Player+Queue.swift in Sources */,
+				C4E936BE2541581D002C982D /* PlayerBufferingStrategy.swift in Sources */,
+				C4E936C62541581D002C982D /* PlayMode.swift in Sources */,
+				C4E936AF2541581D002C982D /* Player+SeekEvent.swift in Sources */,
+				C4E936B12541581D002C982D /* ApplicationStatusProducer.swift in Sources */,
+				C4E936A32541581D002C982D /* PlayableItemQueue.swift in Sources */,
+				C4E936B92541581D002C982D /* VideoPlayer+ApplicationStatusEvent.swift in Sources */,
+				C4E936AD2541581D002C982D /* Player+RetryEvent.swift in Sources */,
+				C4E936B02541581D002C982D /* PlayerDelegate.swift in Sources */,
+				C4E936BB2541581D002C982D /* VideoPlayer.swift in Sources */,
+				C4E936BC2541581D002C982D /* ResourceLoaderDelegate.swift in Sources */,
+				C4E936A72541581D002C982D /* SeekEventProducer.swift in Sources */,
+				C4E936C32541581D002C982D /* PlayableItem.swift in Sources */,
+				C4E936BF2541581D002C982D /* URL+Offline.swift in Sources */,
+				C4E936C52541581D002C982D /* Player+QualityAdjustmentEvent.swift in Sources */,
+				C4E936A22541581D002C982D /* ResourceConvertible.swift in Sources */,
+				C4E936C92541581D002C982D /* Subtitle.swift in Sources */,
+				C4E936C42541581D002C982D /* Player+Control.swift in Sources */,
+				C4E936A52541581D002C982D /* Playable.swift in Sources */,
+				C4E936CB2541581D002C982D /* PlayerAudioSession.swift in Sources */,
+				C4E936CA2541581D002C982D /* Reachability.swift in Sources */,
+				C4E936B72541581D002C982D /* CachingPlayerItemDelegate.swift in Sources */,
+				C4E936C12541581D002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift in Sources */,
+				C4E936C22541581D002C982D /* PlayerAudioTimePitchAlgorithm.swift in Sources */,
+				C4E936B22541581D002C982D /* VideoPlayerGravity.swift in Sources */,
+				C4E936A62541581D002C982D /* Player+CurrentItem.swift in Sources */,
+				C4E936AE2541581D002C982D /* CachingPlayerItem.swift in Sources */,
+				C4E936A92541581D002C982D /* PlayerEventProducer.swift in Sources */,
+				C4E936B62541581D002C982D /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
