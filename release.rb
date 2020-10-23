@@ -18,7 +18,7 @@ def options_setting
     opts.banner = "Usage: release.rb [version]"
     opts.separator "发布新版 SwiftyPlayer"
     opts.separator "Options:"
-    options (switch - true/false)
+    # options (switch - true/false)
     opts.on("-a", "--all", "是否发布 cocoapods carthage 和 SPM") do |a|
       options[:all] = a
     end
