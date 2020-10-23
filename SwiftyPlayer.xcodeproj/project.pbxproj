@@ -56,14 +56,11 @@
 		C4E9385B25427585002C982D /* Player+RetryEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383025427584002C982D /* Player+RetryEvent.swift */; };
 		C4E9385C25427585002C982D /* Player+QualityAdjustmentEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383125427584002C982D /* Player+QualityAdjustmentEvent.swift */; };
 		C4E9385D25427585002C982D /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383225427584002C982D /* VideoPlayerView.swift */; };
-		C4E9385E25427585002C982D /* ResourceLoaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383325427584002C982D /* ResourceLoaderDelegate.swift */; };
 		C4E9385F25427585002C982D /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383425427584002C982D /* VideoPlayer.swift */; };
 		C4E9386025427585002C982D /* PlayerAudioTimePitchAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383525427584002C982D /* PlayerAudioTimePitchAlgorithm.swift */; };
 		C4E9386125427585002C982D /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383625427584002C982D /* PlayerDelegate.swift */; };
-		C4E9386225427585002C982D /* CachingPlayerItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383725427584002C982D /* CachingPlayerItemDelegate.swift */; };
 		C4E9386325427585002C982D /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383825427584002C982D /* PlayerState.swift */; };
 		C4E9386425427585002C982D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383925427584002C982D /* Player.swift */; };
-		C4E9386525427585002C982D /* CachingPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383A25427584002C982D /* CachingPlayerItem.swift */; };
 		C4E9386625427585002C982D /* PlayerBufferingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383B25427584002C982D /* PlayerBufferingStrategy.swift */; };
 		C4E9386725427585002C982D /* VideoPlayerGravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9383C25427584002C982D /* VideoPlayerGravity.swift */; };
 /* End PBXBuildFile section */
@@ -133,14 +130,11 @@
 		C4E9383025427584002C982D /* Player+RetryEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+RetryEvent.swift"; sourceTree = "<group>"; };
 		C4E9383125427584002C982D /* Player+QualityAdjustmentEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+QualityAdjustmentEvent.swift"; sourceTree = "<group>"; };
 		C4E9383225427584002C982D /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
-		C4E9383325427584002C982D /* ResourceLoaderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceLoaderDelegate.swift; sourceTree = "<group>"; };
 		C4E9383425427584002C982D /* VideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 		C4E9383525427584002C982D /* PlayerAudioTimePitchAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerAudioTimePitchAlgorithm.swift; sourceTree = "<group>"; };
 		C4E9383625427584002C982D /* PlayerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDelegate.swift; sourceTree = "<group>"; };
-		C4E9383725427584002C982D /* CachingPlayerItemDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachingPlayerItemDelegate.swift; sourceTree = "<group>"; };
 		C4E9383825427584002C982D /* PlayerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
 		C4E9383925427584002C982D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		C4E9383A25427584002C982D /* CachingPlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachingPlayerItem.swift; sourceTree = "<group>"; };
 		C4E9383B25427584002C982D /* PlayerBufferingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerBufferingStrategy.swift; sourceTree = "<group>"; };
 		C4E9383C25427584002C982D /* VideoPlayerGravity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerGravity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -297,14 +291,11 @@
 				C4E9382525427584002C982D /* PlayerAudioSession.swift */,
 				C4E9382625427584002C982D /* Extension */,
 				C4E9383225427584002C982D /* VideoPlayerView.swift */,
-				C4E9383325427584002C982D /* ResourceLoaderDelegate.swift */,
 				C4E9383425427584002C982D /* VideoPlayer.swift */,
 				C4E9383525427584002C982D /* PlayerAudioTimePitchAlgorithm.swift */,
 				C4E9383625427584002C982D /* PlayerDelegate.swift */,
-				C4E9383725427584002C982D /* CachingPlayerItemDelegate.swift */,
 				C4E9383825427584002C982D /* PlayerState.swift */,
 				C4E9383925427584002C982D /* Player.swift */,
-				C4E9383A25427584002C982D /* CachingPlayerItem.swift */,
 				C4E9383B25427584002C982D /* PlayerBufferingStrategy.swift */,
 				C4E9383C25427584002C982D /* VideoPlayerGravity.swift */,
 			);
@@ -368,7 +359,6 @@
 				C4E93676254157F8002C982D /* Sources */,
 				C4E93677254157F8002C982D /* Frameworks */,
 				C4E93678254157F8002C982D /* Resources */,
-				C4E9380B25427158002C982D /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -486,25 +476,6 @@
 			shellPath = /bin/sh;
 			shellScript = "swiftlint --strict\n";
 		};
-		C4E9380B25427158002C982D /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyPlayer.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -532,7 +503,6 @@
 				C4E9385425427585002C982D /* Player+SeekEvent.swift in Sources */,
 				C4E9385D25427585002C982D /* VideoPlayerView.swift in Sources */,
 				C4E9385725427585002C982D /* Player+PlayerEvent.swift in Sources */,
-				C4E9386225427585002C982D /* CachingPlayerItemDelegate.swift in Sources */,
 				C4E9385A25427585002C982D /* Player+RemoteCommand.swift in Sources */,
 				C4E9384425427585002C982D /* PlayMode.swift in Sources */,
 				C4E9384025427585002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift in Sources */,
@@ -545,10 +515,8 @@
 				C4E9384925427585002C982D /* EventProducer.swift in Sources */,
 				C4E9386025427585002C982D /* PlayerAudioTimePitchAlgorithm.swift in Sources */,
 				C4E9386425427585002C982D /* Player.swift in Sources */,
-				C4E9385E25427585002C982D /* ResourceLoaderDelegate.swift in Sources */,
 				C4E9385B25427585002C982D /* Player+RetryEvent.swift in Sources */,
 				C4E9385325427585002C982D /* VideoPlayer+ApplicationStatusEvent.swift in Sources */,
-				C4E9386525427585002C982D /* CachingPlayerItem.swift in Sources */,
 				C4E9384525427585002C982D /* PlayableItemQueue.swift in Sources */,
 				C4E9385125427585002C982D /* PlayerAudioSession.swift in Sources */,
 				C4E9386625427585002C982D /* PlayerBufferingStrategy.swift in Sources */,

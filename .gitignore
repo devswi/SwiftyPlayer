@@ -69,3 +69,10 @@ DerivedData/
 n
 
 .swiftpm
+
+Carthage/Build
+SwiftyPlayer.framework.zip
+
+.bundle/
+vendor/
+.vscode/settings.json

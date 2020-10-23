@@ -19,13 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "SwiftyPlayer",
-            dependencies: [],
             path: "Sources"
-        ),
-        .testTarget(
-            name: "SwiftyPlayerTests",
-            dependencies: ["SwiftyPlayer"],
-            path: "Tests"
         ),
     ]
 )
