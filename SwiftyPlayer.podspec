@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = "SwiftyPlayer"
-  spec.version = "0.0.4"
+  spec.version = "1.0.0"
   spec.summary = "An audio and video playback component written in Swift"
 
   spec.description = <<-DESC
