@@ -122,8 +122,10 @@ extension Player {
             return .success
         }
 
-        // Register to receive events
-        UIApplication.shared.beginReceivingRemoteControlEvents()
+        DispatchQueue.main.safeAsync {
+            // Register to receive events
+            UIApplication.shared.beginReceivingRemoteControlEvents()
+        }
     }
 
     private func setupRemoteCommand(

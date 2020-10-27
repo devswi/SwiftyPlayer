@@ -47,7 +47,9 @@ public class VideoPlayer: Player {
 
     override var player: AVPlayer? {
         didSet {
-            videoPlayerView?.avPlayer = player
+            DispatchQueue.main.safeAsync {
+                self.videoPlayerView?.avPlayer = self.player
+            }
             player?.volume = volume
             player?.rate = rate
             updatePlayerForBufferingStrategy()
