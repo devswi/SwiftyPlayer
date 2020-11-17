@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C476643E25480BA800201DAD /* DispatchQueue+Safely.swift in Sources */ = {isa = PBXBuildFile; fileRef = C476643D25480BA800201DAD /* DispatchQueue+Safely.swift */; };
 		C4E9367D254157F9002C982D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9367C254157F9002C982D /* AppDelegate.swift */; };
 		C4E9367F254157F9002C982D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9367E254157F9002C982D /* SceneDelegate.swift */; };
 		C4E93681254157F9002C982D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E93680254157F9002C982D /* ViewController.swift */; };
@@ -76,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C476643D25480BA800201DAD /* DispatchQueue+Safely.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Safely.swift"; sourceTree = "<group>"; };
 		C4E9366E254157E3002C982D /* SwiftyPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E9367A254157F8002C982D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E9367C254157F9002C982D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				C4E9381025427584002C982D /* CMTime+TimeIntervalValue.swift */,
 				C4E9381125427584002C982D /* MPNowPlayingInfoCenter+PlayableItem.swift */,
 				C4E9381225427584002C982D /* URL+Scheme.swift */,
+				C476643D25480BA800201DAD /* DispatchQueue+Safely.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				C4E9386025427585002C982D /* PlayerAudioTimePitchAlgorithm.swift in Sources */,
 				C4E9386425427585002C982D /* Player.swift in Sources */,
 				C4E9385B25427585002C982D /* Player+RetryEvent.swift in Sources */,
+				C476643E25480BA800201DAD /* DispatchQueue+Safely.swift in Sources */,
 				C4E9385325427585002C982D /* VideoPlayer+ApplicationStatusEvent.swift in Sources */,
 				C4E9384525427585002C982D /* PlayableItemQueue.swift in Sources */,
 				C4E9385125427585002C982D /* PlayerAudioSession.swift in Sources */,

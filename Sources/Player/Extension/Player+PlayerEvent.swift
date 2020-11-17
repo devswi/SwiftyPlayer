@@ -9,7 +9,6 @@ import CoreMedia
 
 extension Player {
 
-    // swiftlint:disable function_body_length
     /// 处理播放器事件
     ///
     /// - Parameters:
@@ -22,12 +21,7 @@ extension Player {
                 state = .failed(.foundationError(error))
             } else if let currentItem = currentItem {
                 delegate?.player(self, didEndedPlaying: currentItem)
-                if autoPlayNextWhilePlayingEnded {
-                    nextOrStop()
-                } else {
-                    seek(to: 0)
-                    pause()
-                }
+                endedPlayingItem()
             }
         case .interruptionBegan(let wasSuspended) where !wasSuspended:
             pausedForInterruption = true
@@ -115,6 +109,17 @@ extension Player {
             }
         default:
             break
+        }
+    }
+
+    private func endedPlayingItem() {
+        if case .advance = actionAtItemEnd {
+            nextOrStop()
+        } else {
+            pause()
+            if case .pause = actionAtItemEnd {
+                seek(to: 0)
+            }
         }
     }
 
