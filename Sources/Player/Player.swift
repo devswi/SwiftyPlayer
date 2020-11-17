@@ -93,8 +93,16 @@ public class Player: NSObject, EventListener {
 
                 // Reset special state flags.
                 pausedForInterruption = false
-                let asset = AVAsset(url: resource.resourceURL)
-                let playerItem = AVPlayerItem(asset: asset)
+                let playerItem: AVPlayerItem
+                if let data = currentItem.data { // pre-load
+                    playerItem = AVPlayerItem(asset: data)
+                    if let currentItemDuration = currentItemDuration, currentItemDuration > 0 {
+                        delegate?.player(self, didFindDuration: currentItemDuration, for: currentItem)
+                    }
+                } else {
+                    let asset = AVAsset(url: resource.resourceURL)
+                    playerItem = AVPlayerItem(asset: asset)
+                }
                 playerItem.audioTimePitchAlgorithm = AVAudioTimePitchAlgorithm(
                     rawValue: audioTimePitchAlgorithm.rawValue
                 )
@@ -243,8 +251,14 @@ public class Player: NSObject, EventListener {
     /// 当前 item 之后的 `AVPlayerItem` 的提前缓存时长
     public var preferredForwardBufferDuration: TimeInterval = 0
 
-    /// 播放结束之后是否自动播放下一个，默认为 `true`
-    public var autoPlayNextWhilePlayingEnded = true
+    /// 当前 item 播放结束之后操作
+    ///
+    /// 默认播放队列中的下一个
+    public var actionAtItemEnd: ActionAtItemEnd = .advance {
+        didSet {
+            player?.actionAtItemEnd = AVPlayer.ActionAtItemEnd(rawValue: actionAtItemEnd.rawValue) ?? .none
+        }
+    }
 
     /// 定义了用户执行 seek 操作的行为
     ///
@@ -369,6 +383,29 @@ public class Player: NSObject, EventListener {
             options: options,
             notifyOthersOnDeactivation: notifyOthersOnDeactivation
         )
+    }
+
+    /// Preload specified `PlayableItme`
+    public func preload(item: PlayableItem) {
+        if item.data != nil {
+            return
+        }
+
+        let info = item.url(for: currentQuality)
+        guard let resource = info.resource else { return }
+
+        let asset = AVURLAsset(url: resource.resourceURL)
+        let keys = ["playable", "tracks"]
+        asset.loadValuesAsynchronously(forKeys: keys) {
+            for key in keys {
+                if case .failed = asset.statusOfValue(forKey: key, error: nil) {
+                    return
+                }
+            }
+            DispatchQueue.main.safeAsync {
+                item.data = asset
+            }
+        }
     }
 
     /// 对于 `EventListener` 的实现，处理多种事件的监听

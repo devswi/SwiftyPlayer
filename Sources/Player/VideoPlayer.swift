@@ -13,7 +13,11 @@ public class VideoPlayer: Player {
     /// 视频播放承载视图的容器 View
     ///
     /// 播放器本身弱引用持有容器 View，避免循环引用
-    public weak var videoPlayerView: VideoPlayerView?
+    public weak var videoPlayerView: VideoPlayerView? {
+        didSet {
+            self.videoPlayerView?.avPlayer = player
+        }
+    }
 
     /// 是否支持后台播放
     ///
@@ -50,17 +54,14 @@ public class VideoPlayer: Player {
             DispatchQueue.main.safeAsync {
                 self.videoPlayerView?.avPlayer = self.player
             }
-            player?.volume = volume
-            player?.rate = rate
-            updatePlayerForBufferingStrategy()
-            // start application status listener
-            applicationStatus.startProducingEvents()
         }
     }
 
     public override init() {
         super.init()
         applicationStatus.eventListener = self
+        // start application status listener
+        applicationStatus.startProducingEvents()
     }
 
     public override func stop() {

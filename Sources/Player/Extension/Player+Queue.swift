@@ -7,6 +7,12 @@
 
 extension Player {
 
+    public enum ActionAtItemEnd: Int {
+        case advance
+        case pause
+        case none
+    }
+
     /// 队列中的所有 item
     public var items: [PlayableItem]? {
         queue?.queue
