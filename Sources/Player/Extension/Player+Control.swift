@@ -132,6 +132,28 @@ extension Player {
         }
     }
 
+    /// Moves the playback cursor within a specified time bound.
+    ///
+    /// Seek to request sample accurate seeking which may incur additional decoding delay.
+    ///
+    /// - Parameters:
+    ///   - time
+    ///   - byAdaptingTimeToFitSeekableRanges
+    ///   - completionHandler
+    public func seekAccurately(
+        to time: TimeInterval,
+        byAdaptingTimeToFitSeekableRanges: Bool = false,
+        completionHandler: ((Bool) -> Void)? = nil
+    ) {
+        seek(
+            to: time,
+            byAdaptingTimeToFitSeekableRanges: byAdaptingTimeToFitSeekableRanges,
+            toleranceBefore: .zero,
+            toleranceAfter: .zero,
+            completionHandler: completionHandler
+        )
+    }
+
     /// 尽可能回退跳转播放
     ///
     /// - Parameters:

@@ -31,6 +31,9 @@ public class PlayableItem: NSObject, Playable {
     @objc
     public dynamic var artwork: MPMediaItemArtwork?
 
+    @objc
+    public dynamic var data: AVAsset?
+
     public var artworkImageSize: CGSize?
 
     public required init?(itemResources: [PlayableQuality: ResourceConvertible]) {

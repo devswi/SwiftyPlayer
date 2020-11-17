@@ -20,6 +20,10 @@ SwiftyPlayer is an audio and video playback component written in Swift, based on
  * iOS 10+
  * Swift 5.1+
 
+## TODO
+
+- [ ] Add Example project
+
 ## Wiki
 
 You can view information about how to install and how to use through the [wiki](https://github.com/shiwei93/SwiftyPlayer/wiki).
