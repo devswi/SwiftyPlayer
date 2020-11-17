@@ -22,7 +22,7 @@ SwiftyPlayer is an audio and video playback component written in Swift, based on
 
 ## TODO
 
-- [] Add Example project
+- [ ] Add Example project
 
 ## Wiki
 
