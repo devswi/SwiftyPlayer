@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C458D7122564F70300E1E38F /* VideoPlayerControlViewController+Pip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458D70F2564F70300E1E38F /* VideoPlayerControlViewController+Pip.swift */; };
+		C458D7132564F70300E1E38F /* VideoPlayerControlViewController+Brightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458D7102564F70300E1E38F /* VideoPlayerControlViewController+Brightness.swift */; };
+		C458D7142564F70300E1E38F /* VideoPlayerControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458D7112564F70300E1E38F /* VideoPlayerControlViewController.swift */; };
+		C458D7192564F76600E1E38F /* StatefulButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458D7182564F76600E1E38F /* StatefulButton.swift */; };
+		C458D7272564F88900E1E38F /* PlayerSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458D7262564F88900E1E38F /* PlayerSpeed.swift */; };
+		C458D72C2564F92D00E1E38F /* TimeInterval+Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458D72B2564F92D00E1E38F /* TimeInterval+Second.swift */; };
 		C476643E25480BA800201DAD /* DispatchQueue+Safely.swift in Sources */ = {isa = PBXBuildFile; fileRef = C476643D25480BA800201DAD /* DispatchQueue+Safely.swift */; };
 		C4E9367D254157F9002C982D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9367C254157F9002C982D /* AppDelegate.swift */; };
 		C4E9367F254157F9002C982D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9367E254157F9002C982D /* SceneDelegate.swift */; };
-		C4E93681254157F9002C982D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E93680254157F9002C982D /* ViewController.swift */; };
+		C4E93681254157F9002C982D /* JustVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E93680254157F9002C982D /* JustVideoPlayerViewController.swift */; };
 		C4E93684254157F9002C982D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E93682254157F9002C982D /* Main.storyboard */; };
 		C4E93686254157F9002C982D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E93685254157F9002C982D /* Assets.xcassets */; };
 		C4E93689254157F9002C982D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E93687254157F9002C982D /* LaunchScreen.storyboard */; };
@@ -77,12 +83,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C458D70F2564F70300E1E38F /* VideoPlayerControlViewController+Pip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VideoPlayerControlViewController+Pip.swift"; sourceTree = "<group>"; };
+		C458D7102564F70300E1E38F /* VideoPlayerControlViewController+Brightness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VideoPlayerControlViewController+Brightness.swift"; sourceTree = "<group>"; };
+		C458D7112564F70300E1E38F /* VideoPlayerControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerControlViewController.swift; sourceTree = "<group>"; };
+		C458D7182564F76600E1E38F /* StatefulButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulButton.swift; sourceTree = "<group>"; };
+		C458D7262564F88900E1E38F /* PlayerSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSpeed.swift; sourceTree = "<group>"; };
+		C458D72B2564F92D00E1E38F /* TimeInterval+Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Second.swift"; sourceTree = "<group>"; };
 		C476643D25480BA800201DAD /* DispatchQueue+Safely.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Safely.swift"; sourceTree = "<group>"; };
 		C4E9366E254157E3002C982D /* SwiftyPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E9367A254157F8002C982D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E9367C254157F9002C982D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E9367E254157F9002C982D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4E93680254157F9002C982D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4E93680254157F9002C982D /* JustVideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustVideoPlayerViewController.swift; sourceTree = "<group>"; };
 		C4E93683254157F9002C982D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4E93685254157F9002C982D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E93688254157F9002C982D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -167,6 +179,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C458D70E2564F70300E1E38F /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				C458D70F2564F70300E1E38F /* VideoPlayerControlViewController+Pip.swift */,
+				C458D7102564F70300E1E38F /* VideoPlayerControlViewController+Brightness.swift */,
+				C458D7112564F70300E1E38F /* VideoPlayerControlViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
 		C4E933CC25414C4F002C982D = {
 			isa = PBXGroup;
 			children = (
@@ -198,13 +220,17 @@
 		C4E9367B254157F9002C982D /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				C458D70E2564F70300E1E38F /* Control */,
 				C4E9367C254157F9002C982D /* AppDelegate.swift */,
 				C4E9367E254157F9002C982D /* SceneDelegate.swift */,
-				C4E93680254157F9002C982D /* ViewController.swift */,
+				C4E93680254157F9002C982D /* JustVideoPlayerViewController.swift */,
 				C4E93682254157F9002C982D /* Main.storyboard */,
 				C4E93685254157F9002C982D /* Assets.xcassets */,
 				C4E93687254157F9002C982D /* LaunchScreen.storyboard */,
 				C4E9368A254157F9002C982D /* Info.plist */,
+				C458D7182564F76600E1E38F /* StatefulButton.swift */,
+				C458D7262564F88900E1E38F /* PlayerSpeed.swift */,
+				C458D72B2564F92D00E1E38F /* TimeInterval+Second.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -533,8 +559,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E93681254157F9002C982D /* ViewController.swift in Sources */,
+				C458D7192564F76600E1E38F /* StatefulButton.swift in Sources */,
+				C4E93681254157F9002C982D /* JustVideoPlayerViewController.swift in Sources */,
+				C458D7272564F88900E1E38F /* PlayerSpeed.swift in Sources */,
 				C4E9367D254157F9002C982D /* AppDelegate.swift in Sources */,
+				C458D7142564F70300E1E38F /* VideoPlayerControlViewController.swift in Sources */,
+				C458D7122564F70300E1E38F /* VideoPlayerControlViewController+Pip.swift in Sources */,
+				C458D72C2564F92D00E1E38F /* TimeInterval+Second.swift in Sources */,
+				C458D7132564F70300E1E38F /* VideoPlayerControlViewController+Brightness.swift in Sources */,
 				C4E9367F254157F9002C982D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
